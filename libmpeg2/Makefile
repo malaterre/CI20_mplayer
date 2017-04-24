@@ -15,7 +15,7 @@ RANLIB 		= ranlib
 
 CFLAGS 		= -mips32 -O2 -fno-builtin \
 		  -fno-exceptions -ffunction-sections -falign-functions=32 \
-	   	  -fshort-wchar -fomit-frame-pointer -ffast-math -msoft-float -G 0 -Wall \
+	   	  -fshort-wchar -fomit-frame-pointer -ffast-math -mhard-float -G 0 -Wall \
                      -mlong-calls -Wdisabled-optimization -Wno-switch \
 		  -Wpointer-arith -Wredundant-decls -pipe -fomit-frame-pointer \
                      -D_REENTRANT -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 \
